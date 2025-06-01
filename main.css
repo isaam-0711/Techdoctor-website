@@ -1,0 +1,400 @@
+/* main colors: #2F4F4F, #15803d */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin:0;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(113 113 122);
+    color: white;
+}
+
+.nav-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
+.nav-logo img {
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
+nav > .nav-items {
+    display: flex;  
+}
+
+nav > .nav-items > a {
+    padding: 10px;
+}
+
+nav > .nav-items > a:hover {
+    color: rgb(21 128 61);
+}
+
+
+header {
+    display: flex;
+    height: 20rem;
+    align-items: center;
+    background-color: #2F4F4F;
+    color: #fff;
+} 
+
+header > .info > h1 {
+    font-size: 18px;
+    margin: 25px;
+    padding: 2rem;
+}
+
+header > .info > p { 
+    margin: 25px;
+    padding: 1rem;
+
+}
+
+
+header > .image > img {
+    width: 300px;
+    height: 15rem;
+    object-fit: cover;
+    margin-right: 10rem;
+    padding: 1rem;
+   
+}
+
+a {
+    font-size: 18px;
+}
+
+#stats {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(113 113 122);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#stats > div {
+    margin: 0px px 30px 0px 30px;
+    padding: 10px;
+}
+
+.primary-title {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2px;
+    font-size: xx-large;
+    color: black;
+}
+
+.secondary-title {
+    text-align: center;
+    text-decoration: dashed;
+    padding: 20px;
+}
+
+.tertiary-title {
+    text-align: center;
+}
+
+
+
+#services > .cards {
+    display: flex;
+    gap: 0.5px;
+    color: #fff;
+ 
+}
+
+#services > .cards > .card {
+    background: #2F4F4F;
+    flex: 0 0 30%;
+    margin: 1.5%;
+    padding: 5px;
+
+
+}
+
+#services > .cards > .card-content {
+    padding: 10px;
+
+
+}
+#services > .cards > .card > .card-content > .card-title {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    
+
+}
+#services > .cards > .card > img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+/* contact: home-page */
+
+#cta {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 5rem; 
+}
+
+#cta > .cta-title {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 10px;
+    margin: 2px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+.contact-form > .contact-items > p > input {
+    gap: 10px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #2F4F4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s;
+
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #2F4F4F
+}
+
+
+.item {
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+.contact-form > .description {
+    font-style: arial;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+    
+
+.main-text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #2F4F4F;
+    padding: 50px;
+    border: 25px #2F4F4F;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+input {
+    background-color: #aaaaaa;
+    outline: none;
+    color: white;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+
+}
+
+/* about-page */
+
+
+.about-section {
+    padding: 5px;
+    margin: 5px;
+    height: 10rem;
+}
+
+.about-button {
+    padding: 10px 20px;
+    background-color: #2F4F4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.about-button:hover {
+    background-color: white;
+    color: #2F4F4F
+}
+
+.review-form {
+    padding: 10px;
+    border: 10px;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.costumer-feedback {
+    display: flex;
+    text-align: center;
+}
+
+/* contact-page */
+
+.contact-section {
+    display: flex;
+    position: relative;
+
+}
+
+.contact-section > .contact-image {
+    box-shadow: rgba(0,0,0,0.25);
+    border-radius: 8px;
+    opacity: 0.5;
+    scale: 1.0;
+}
+
+
+.contact-section > .contact-form {
+    position: absolute;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+
+#contact-section > .contact-form > form > p > input {
+    width: 100%;
+    background: darkgrey;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    margin: 4px;
+
+}
+
+#contact-section > .contact-form > form > p > button {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #2F4F4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s;
+
+
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #2F4F4F;
+
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #2F4F4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s;
+
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: #2F4F4F;
+}
+
+
+
+#contact-section > .contact-form > form > .description {
+    padding: 8px;
+    margin: 4px;
+}
+
+
+footer {
+    background: rgb(113 113 122);
+    color: #fff;
+    display: flex;
+    flex-direction: flex;
+    text-align: center;
+    padding: 40px 0;
+    width: 100%;
+
+}
+    
+       
+footer > .logo-footer > img {
+    width: 150px;
+    padding: 5px;
+}
+
+footer > .copyright {
+    text-align: left;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    #services > .cards {
+        flex-direction: column;
+    }
+
+    header > .image {
+        display: none;
+    }
+
+    #contact-section> .contact-form {
+        display: table-row;
+    }
+
+    #stats {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    
+    
+}
